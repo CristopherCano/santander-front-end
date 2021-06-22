@@ -76,4 +76,58 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     border: 0;
-    border-radius: 5px;
+    border-radius: 5px;}
+
+    .promo {
+      display: flex;
+      width: 70%;
+      margin: 100px auto;
+      align-items: center;
+      gap: 20px
+    }
+    
+    .video-info {
+      /* container styles if ant */
+    }
+
+    .video-info h3 {
+      font-family: "Alegreya", serif;
+      font-size: 40px;
+      line-height: 48px;
+      color: #025157;
+    }
+    
+    .video-info > p {
+      font-size: 16px;
+      color: #343434;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    
+    .video-info > form {
+      display: flex;
+    }
+    
+    .video-info > form p {
+      color: #025157;
+      margin-right: 18px;
+    }
+    
+    .explanatory-video {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .explanatory-video img {
+      width: 120px;
+      margin-top: 20px;
+    }
+    
+    .fixed-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #fffbf7;
+    }
