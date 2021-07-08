@@ -518,6 +518,11 @@ h2 {
     max-width: 90%;
   }
 
+  .sesion3 {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
   .explanatory-video > video {
     width: 100%;
   }
